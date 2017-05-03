@@ -1,0 +1,27 @@
+{
+  "name": "ecoref",
+  "authors": [
+    "Marco Galardini <galactus8403@gmail.com>"
+  ],
+  "description": "An Escherichia coli genetic reference panel",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "awesomplete": "^1.1.1",
+    "bootstrap": "^3.3.7",
+    "d3": "3.5.17",
+    "datatables.net-bs": "^1.10.12",
+    "datatables.net": "^1.10.12",
+    "select2": "^4.0.3"
+  }
+}
