@@ -178,7 +178,6 @@
     content: "\5a";
 }
 .species-bigger {
-  font-size: 20px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  font-size: 50px;
+  margin-right: 10px;
 }
