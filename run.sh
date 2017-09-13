@@ -1,4 +1,4 @@
-#!//bin/bash
+#!/bin/bash
 
 python src/make_all_conditions_json.py > json/all_conditions.json
 python src/make_conditions_json.py > json/conditions.json
