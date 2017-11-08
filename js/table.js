@@ -22,6 +22,18 @@ function genomes (s) {
   } else { return '' }	  
 }
 
+function annotations (s) {
+  if (s) {
+    var out = '', i;
+    var a = s.split(' ');
+    for (i = 0; i < a.length; i++) {
+	out += '<a href="../data/annotations/' + a[i] + '" download>' + 
+	      a[i].split('_')[1].split('.')[0] + '</a> <span class="glyphicon glyphicon-download" aria-hidden="true"></span> '
+    }
+    return out
+  } else { return '' }	  
+}
+
 function bsl (s) {
   if (s) {
     if (s == 1) { return '<td class="success">BSL1</td>' }
@@ -132,6 +144,16 @@ var columnsDef = [
     "render": function (data, type, row, meta) {
         if(data) {
           return genomes(data)
+        }
+        else { return '' }
+    }
+  },
+  {
+    "title": "Annotation",
+    "data": "annotation",
+    "render": function (data, type, row, meta) {
+        if(data) {
+          return annotations(data)
         }
         else { return '' }
     }

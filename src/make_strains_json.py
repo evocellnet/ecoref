@@ -9,6 +9,8 @@ if __name__ == '__main__':
     phenotypes = {x.split('.')[0] for x in os.listdir('data/phenotypes')}
     g = pd.read_table('data/genomes.tsv', sep=' ', header=None)
     g.set_index(g.columns[0], inplace=True)
+    a = pd.read_table('data/annotations.tsv', sep=' ', header=None)
+    a.set_index(a.columns[0], inplace=True)
     c = pd.read_table('data/contact.tsv')
     c.set_index(c.columns[0], inplace=True)
     m = pd.read_table('data/strains.tsv')
@@ -37,6 +39,16 @@ if __name__ == '__main__':
                 assembly.append(' '.join(v))
         else:
             assembly.append('')
+    annot = []
+    for x in m['id']:
+        if x in set(a.index):
+            v = a.loc[x][1]
+            if type(v) == str:
+                annot.append(v)
+            else:
+                annot.append(' '.join(v))
+        else:
+            annot.append('')
     m['owner'] = [c.loc[x]['owner'] for x in m['id']]
     m['website'] = [c.loc[x]['website'] for x in m['id']]
     m['email'] = [c.loc[x]['email'] for x in m['id']]
@@ -44,6 +56,7 @@ if __name__ == '__main__':
                 for x in m['id']]
 
     m['assembly'] = assembly
+    m['annotation'] = annot
     m['phenotypes'] = [x+'.tsv' if x in phenotypes else '' for x in m['id']]
     d = {}
     d['data'] = []
