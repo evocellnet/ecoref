@@ -1,0 +1,30 @@
+{
+  "nodeVersion": "v8.9.1",
+  "modulesFolders": [
+    "components"
+  ],
+  "flags": [],
+  "linkedModules": [],
+  "topLevelPatterns": [
+    "awesomplete@1.1.1",
+    "bootstrap@3.3.7",
+    "d3@3.5.17",
+    "datatables.net-bs@1.10.12",
+    "datatables.net@1.10.12",
+    "select2@4.0.3"
+  ],
+  "lockfileEntries": {
+    "almond@~0.3.1": "https://registry.yarnpkg.com/almond/-/almond-0.3.3.tgz#a0e7c95ac7624d6417b4494b1e68bff693168a20",
+    "awesomplete@1.1.1": "https://registry.yarnpkg.com/awesomplete/-/awesomplete-1.1.1.tgz#460c2045d5c3f584f36295be20645b5ccdc860ab",
+    "bootstrap@3.3.7": "https://registry.yarnpkg.com/bootstrap/-/bootstrap-3.3.7.tgz#5a389394549f23330875a3b150656574f8a9eb71",
+    "d3@3.5.17": "https://registry.yarnpkg.com/d3/-/d3-3.5.17.tgz#bc46748004378b21a360c9fc7cf5231790762fb8",
+    "datatables.net-bs@1.10.12": "https://registry.yarnpkg.com/datatables.net-bs/-/datatables.net-bs-1.10.12.tgz#514830c325ec4349ad6c0a4c6689143fcc93697b",
+    "datatables.net@1.10.12": "https://registry.yarnpkg.com/datatables.net/-/datatables.net-1.10.12.tgz#d66e1497d39f55ad6f1e6c2abb30ce19290e30f8",
+    "datatables.net@>=1.10.9": "https://registry.yarnpkg.com/datatables.net/-/datatables.net-1.10.16.tgz#4b052d1082824261b68eed9d22741b711d3d2469",
+    "jquery-mousewheel@~3.1.13": "https://registry.yarnpkg.com/jquery-mousewheel/-/jquery-mousewheel-3.1.13.tgz#06f0335f16e353a695e7206bf50503cb523a6ee5",
+    "jquery@>=1.7": "https://registry.yarnpkg.com/jquery/-/jquery-3.2.1.tgz#5c4d9de652af6cd0a770154a631bba12b015c787",
+    "select2@4.0.3": "https://registry.yarnpkg.com/select2/-/select2-4.0.3.tgz#207733fe91eacb9cb1a13f12463401f472449e0f"
+  },
+  "files": [],
+  "artifacts": {}
+}
