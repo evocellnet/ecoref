@@ -1,0 +1,1 @@
+{"protein": {"length": 18, "uniprot": "E2JKY7", "sequence": "MEPDPTPLPRRRLKLFR*"}, "variants": [{"absent": "false", "nonsyn": [["K", "14", "N"]], "stop": [], "ID": "NT12098"}, {"absent": "false", "nonsyn": [["P", "9", "S"]], "stop": [], "ID": "NT12879"}]}

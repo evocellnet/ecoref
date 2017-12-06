@@ -1,0 +1,1 @@
+{"protein": {"length": 73, "uniprot": "P69222", "sequence": "MAKEDNIEMQGTVLETLPNTMFRVELENGHVVTAHISGKMRKNYIRILTGDKVTVELTPYDLSKGRIVFRSR*"}, "variants": [{"absent": "false", "nonsyn": [["M", "9", "I"]], "stop": [], "ID": "NT12843"}, {"absent": "false", "nonsyn": [["M", "9", "I"]], "stop": [], "ID": "NT12867"}]}

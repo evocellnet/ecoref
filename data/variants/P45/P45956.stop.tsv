@@ -1,0 +1,7 @@
+NT12029	*95D	stop_lost
+NT12085	*95D	stop_lost
+NT12085	WL22*	stop_gained
+NT12372	*95D	stop_lost
+NT12382	*95D	stop_lost
+NT12382	L75*	stop_gained
+NT12426	L83*	stop_gained

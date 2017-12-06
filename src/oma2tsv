@@ -1,0 +1,40 @@
+#!/usr/bin/env python
+
+def get_options():
+    import argparse
+
+    description = 'transform the OMA orthologs table to a tsv file'
+    parser = argparse.ArgumentParser(description=description)
+
+    parser.add_argument('table',
+                        help='OMA tsv table')
+    parser.add_argument('conversion',
+                        help='gene conversion table')
+
+    return parser.parse_args()
+
+def parse_orthologs(f):
+    d = {}
+    for l in open(f):
+        if l.startswith('#'):
+            continue
+        o, p, i = l.rstrip().split('\t')
+        d[o] = d.get(o, set())
+        d[o].add( (p, i) )
+    return d
+
+if __name__ == "__main__":
+    options = get_options()
+
+    import pandas as pd
+
+    m = pd.read_table(options.conversion, header=None, index_col=0)[3].to_dict()
+
+    d = parse_orthologs(options.table)
+    for k in d:
+        o = {x[1] for x in d[k]}
+        if 'reference' in o and 'target' not in o:
+            g = {m.get(x[0], x[0]) for x in d[k]
+                 if x[1] == 'reference'}
+            for gene in g:
+                print(gene)

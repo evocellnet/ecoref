@@ -1,0 +1,6 @@
+NT12031	*411H	stop_lost
+NT12031	E409*	stop_gained
+NT12031	RQ399*	stop_gained
+NT12084	Q410*	stop_gained
+NT12582	Q410*	stop_gained
+NT12868	W166*	stop_gained

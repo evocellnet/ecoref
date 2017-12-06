@@ -13,6 +13,7 @@
     "d3": "3.5.17",
     "datatables.net": "1.10.12",
     "datatables.net-bs": "1.10.12",
+    "feature-viewer": "^0.1.44",
     "select2": "4.0.3"
   }
 }

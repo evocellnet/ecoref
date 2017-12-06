@@ -1,0 +1,1 @@
+{"protein": {"length": 21, "uniprot": "C1P606", "sequence": "MGQFFAYATVITVKENDHVA*"}, "variants": [{"absent": "false", "nonsyn": [["T", "12", "I"]], "stop": [], "ID": "NT12058"}, {"absent": "false", "nonsyn": [["D", "17", "N"]], "stop": [], "ID": "NT12602"}, {"absent": "false", "nonsyn": [["D", "17", "N"]], "stop": [], "ID": "NT12604"}]}

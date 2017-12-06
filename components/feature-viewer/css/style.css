@@ -1,0 +1,119 @@
+.variant{
+    stroke:rgba(0,255,154,0.6);
+    stroke-width:1px;
+}
+
+a:focus {
+    outline:0 !important;
+}
+
+.active {
+    z-index: 1;
+}
+.brush .extent{
+    stroke: #fff;
+    fill-opacity: .125;
+    shape-rendering: crispEdges;
+}
+
+
+.point {
+    fill: #2f225d;
+    stroke: #afa2dc;
+}
+
+.selected {
+    fill: #afa2dc;
+    stroke: #2f225d;
+}
+
+.clear-button {
+    font: 14px sans-serif;
+    cursor: pointer;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.axis {
+    font: 10px sans-serif;
+}
+.d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+}
+
+/*Creates a small triangle extender for the tooltip */
+.tooltip2:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    content: "\25BC";
+    position: absolute;
+    text-align: left;
+    margin: -1px 0 0 0;
+    top: 98%;
+    left: 10px;
+}
+.tooltip3:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    content: "\25BC";
+    position: absolute;
+    text-align: right;
+    margin: -1px 0 0 0;
+    top: 98%;
+    right: 10px;
+}
+
+.yaxis{
+    background-color:green;
+}
+
+.header-help{
+    color: #C50063;
+}
+
+.header-help:hover{
+    color: #98004C;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header-help:focus{
+    color: #98004C;
+}
+
+.popover-title{
+    text-align: center;
+    background-color: rgba(197, 0, 99, 0.1);
+}
+
+.label-as-badge {
+    border-radius: 1em;
+    font-size:0.7em;
+    background-color: #C50063;
+}
+
+path{
+    fill:none;
+}
+
+rect{
+    rx:2;
+}

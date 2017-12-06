@@ -1,0 +1,1 @@
+{"protein": {"length": 98, "uniprot": "P0AGK4", "sequence": "MNLSTKQKQHLKGLAHPLKPVVLLGSNGLTEGVLAEIEQALEHHELIKVKIATEDRETKTLIVEAIVRETGACNVQVIGKTLVLYRPTKERKISLPR*"}, "variants": [{"absent": "false", "nonsyn": [["V", "75", "I"]], "stop": [], "ID": "NT12100"}, {"absent": "false", "nonsyn": [["T", "60", "S"]], "stop": [], "ID": "NT12608"}]}

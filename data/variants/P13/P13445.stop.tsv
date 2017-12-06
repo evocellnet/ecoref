@@ -1,0 +1,17 @@
+NT12003	Q33*	stop_gained
+NT12026	W262*	stop_gained
+NT12036	L11*	stop_gained
+NT12081	*331L	stop_lost
+NT12089	*331E	stop_lost
+NT12098	G86*	stop_gained
+NT12099	S47*	stop_gained
+NT12102	L30*	stop_gained
+NT12108	Q257*	stop_gained
+NT12112	E34*	stop_gained
+NT12114	E34*	stop_gained
+NT12162	E64*	stop_gained
+NT12171	*331L	stop_lost
+NT12186	Q270*	stop_gained
+NT12187	Q270*	stop_gained
+NT12618	*331Y	stop_lost
+NT12619	Q33*	stop_gained
